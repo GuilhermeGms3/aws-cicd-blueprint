@@ -1,0 +1,10 @@
+project_name       = "aws-cicd-blueprint"
+aws_region         = "us-east-1"
+vpc_id             = "vpc-xxxxxxxxxxxxxxxxx"
+public_subnet_ids  = ["subnet-aaaaaaa", "subnet-bbbbbbb"]
+private_subnet_ids = ["subnet-ccccccc", "subnet-ddddddd"]
+container_port     = 8080
+desired_count      = 1
+cpu                = 256
+memory             = 512
+image_tag          = "latest"
