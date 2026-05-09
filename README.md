@@ -13,6 +13,7 @@ Production-oriented CI/CD blueprint using GitHub Actions + AWS ECS Fargate.
   - CloudWatch logs
 - GitHub Actions pipeline:
   - Test step (pytest)
+  - Security gates (Bandit + pip-audit)
   - Docker build and push to ECR
   - Automated ECS rollout
 
